@@ -37,7 +37,7 @@ void testGetUserName() {
 void testSetUserName() {
 	String mockUserName = "akshay@gmail.com";
 	admin.setAdminUsername(mockUserName);
-	Stringname = admin.getAdminUsername();
+	String name = admin.getAdminUsername();
 	
 	assertThat(name).isEqualTo(mockUserName);
 }
